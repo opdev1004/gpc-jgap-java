@@ -1,0 +1,2 @@
+log4j:ERROR occurs when the program cannot access directory to write log.
+This is from Jgap lib nothing to do with my codes

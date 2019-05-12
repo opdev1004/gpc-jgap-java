@@ -1,0 +1,139 @@
+log4j:ERROR setFile(null,true) call failed.
+java.io.FileNotFoundException: C:\Program Files\Java\jdk-11.0.2log4j_jgap_lf.log (액세스가 거부되었습니다)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:272)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:156)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:151)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:247)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:123)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:87)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:645)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:603)
+	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:500)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:406)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:432)
+	at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:460)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:113)
+	at org.apache.log4j.Logger.getLogger(Logger.java:94)
+	at org.jgap.gp.GPFitnessFunction.<clinit>(GPFitnessFunction.java:29)
+	at GPC.<init>(GPC.java:51)
+	at GPC.main(GPC.java:206)
+[JGAP][16:17:13] INFO GPGenotype - Creating initial population
+[JGAP][16:17:13] INFO GPGenotype - Mem free: 20.0 MB
+[JGAP][16:17:13] INFO GPPopulation - Prototype program set
+[JGAP][16:17:13] INFO GPGenotype - Mem free after creating population: 14.0 MB
+[JGAP][16:17:13] INFO GPGenotype - Your configuration does not contain unused commands, this is good
+Evolution: 1
+[JGAP][16:17:13] INFO GPGenotype - Best solution fitness: 0.07
+[JGAP][16:17:13] INFO GPGenotype - Best solution: ((X1 * X5) - (X1 + X8 + X1)) - ((X4 * X3 * X0) / (X8 + X2 + X6 + X1))
+[JGAP][16:17:13] INFO GPGenotype - Depth of chrom: 3
+Evolution: 2
+[JGAP][16:17:13] INFO GPGenotype - Best solution fitness: 0.06
+[JGAP][16:17:13] INFO GPGenotype - Best solution: (X6 * X7 * X2) - (X6 + (X8 + X2 + X6 + X1))
+[JGAP][16:17:13] INFO GPGenotype - Depth of chrom: 3
+Evolution: 3
+Evolution: 4
+Evolution: 5
+Evolution: 6
+Evolution: 7
+Evolution: 8
+Evolution: 9
+Evolution: 10
+Evolution: 11
+Evolution: 12
+Evolution: 13
+Evolution: 14
+Evolution: 15
+Evolution: 16
+Evolution: 17
+Evolution: 18
+Evolution: 19
+Evolution: 20
+Evolution: 21
+Evolution: 22
+Evolution: 23
+Evolution: 24
+Evolution: 25
+Evolution: 26
+Evolution: 27
+Evolution: 28
+Evolution: 29
+Evolution: 30
+Evolution: 31
+Evolution: 32
+Evolution: 33
+Evolution: 34
+Evolution: 35
+Evolution: 36
+Evolution: 37
+Evolution: 38
+Evolution: 39
+Evolution: 40
+Evolution: 41
+Evolution: 42
+Evolution: 43
+Evolution: 44
+Evolution: 45
+Evolution: 46
+Evolution: 47
+Evolution: 48
+Evolution: 49
+Evolution: 50
+Evolution: 51
+Evolution: 52
+Evolution: 53
+Evolution: 54
+Evolution: 55
+Evolution: 56
+Evolution: 57
+Evolution: 58
+Evolution: 59
+Evolution: 60
+Evolution: 61
+Evolution: 62
+Evolution: 63
+Evolution: 64
+Evolution: 65
+Evolution: 66
+Evolution: 67
+Evolution: 68
+Evolution: 69
+Evolution: 70
+Evolution: 71
+Evolution: 72
+Evolution: 73
+Evolution: 74
+Evolution: 75
+Evolution: 76
+Evolution: 77
+Evolution: 78
+Evolution: 79
+Evolution: 80
+Evolution: 81
+Evolution: 82
+Evolution: 83
+Evolution: 84
+Evolution: 85
+Evolution: 86
+Evolution: 87
+Evolution: 88
+Evolution: 89
+Evolution: 90
+Evolution: 91
+Evolution: 92
+Evolution: 93
+Evolution: 94
+Evolution: 95
+Evolution: 96
+Evolution: 97
+Evolution: 98
+Evolution: 99
+==========Finished============
+[JGAP][16:17:17] INFO GPGenotype - Best solution fitness: 0.06
+[JGAP][16:17:17] INFO GPGenotype - Best solution: (X6 * X7 * X2) - (X6 + (X8 + X2 + X6 + X1))
+[JGAP][16:17:17] INFO GPGenotype - Depth of chrom: 3
+Training Accuracy: 459 / 489, 93.86503067484662%
+Test Accuracy: 197 / 210, 93.80952380952381%
